@@ -10,7 +10,7 @@ React based application for serving as a front-end for the HackerNews API
 
 
 ## To do list for 13/11/2017
-- [ ] Get basic structure of the application fleshed out
+- [X] Get basic structure of the application fleshed out
 - [X] Initialize Repository
-- [X] Get basic data from the HN API
-- [X] Serve that data to the frontend 
+- [ ] Get basic data from the HN API
+- [ ] Serve that data to the frontend 
