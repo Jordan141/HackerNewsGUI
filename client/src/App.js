@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import TestData from './components/testData'
 import './App.css';
 
 class App extends Component {
@@ -14,12 +15,13 @@ class App extends Component {
       .then(data => this.setState({data}))
   }
   render() {
+    console.log('Data: ', this.state.data)
     return (
       <div className="App">
         <h1> Dummy Data </h1>
         <div>{JSON.stringify(this.state.dummy)}</div>
          <h1> Test Data </h1>
-         {JSON.stringify(this.state.data)}
+         <TestData data={this.state.data}/>
       </div>
     );
   }
