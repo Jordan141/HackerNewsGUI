@@ -16,7 +16,8 @@ React based application for serving as a front-end for the HackerNews API
 - [X] Serve that data to the frontend 
 
 ## To do list for 14/11/2017
-- [ ] Create all basic GET routes that retrieve data from the API
-- [ ] Create POST routes that query the API for relevant data
-- [ ] Create a component to display the full information of a query
-- [ ] Create list item component for better UX/UI quality 
+- [X] Create list item component for better UX/UI quality
+- [X] Create top story route
+- [X] Refactor top story route for faster response times (900ms down to 300ms)
+- [X] Added lodash
+- [X] Refactored existing code, added basic caching system
